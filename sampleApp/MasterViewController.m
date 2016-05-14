@@ -59,7 +59,7 @@
 }
 
 #pragma mark - Table View
-
+/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
@@ -74,7 +74,7 @@
     NSDate *object = self.objects[indexPath.row];
     cell.textLabel.text = [object description];
     return cell;
-}
+}*/
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return NO if you do not want the specified item to be editable.
@@ -89,5 +89,7 @@
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
     }
 }
+
+
 
 @end
